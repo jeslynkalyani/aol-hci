@@ -203,6 +203,12 @@ iframe {
   z-index: 9999; 
 }
 
+.map-wrap{
+  width:600;
+  height: 450;
+  border: 0;
+}
+
 .search-bar {
   position: relative;
   width: 100%;
@@ -257,4 +263,47 @@ iframe {
   text-align: center;
   margin: 0px;
   margin-bottom: 1vh;
+}
+
+@media (max-width: 480px) {
+  .body {
+    max-width: 480px;
+    width: 100vw;
+    max-height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+
+  .container-wide{
+    width: 100vw;
+    max-width: 480px;
+  }
+
+  .container {
+    margin-bottom: 0px;
+  }
+
+  .navbar{
+    max-width: 480px;
+    width: 100vw;
+    position: absolute;
+  }
+
+  .col-auto:nth-of-type(3) {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    margin-top: 15px;
+  }
+
+  .map-wrap {
+    width:100vw;
+    height: 100vh;
+    max-height: 100vh;
+  }
+
+  .map-wrap iframe{
+    width:100vw;
+    height: 100vh;
+    max-height: 100vh;
+  }
 }
