@@ -284,7 +284,6 @@ iframe {
   }
 
   .navbar{
-    max-width: 480px;
     width: 100vw;
     position: absolute;
   }
