@@ -1,0 +1,89 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background: url("../images/transport.webp") rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.center-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.brand{
+    margin: 10px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.card{
+    background: #fff;
+    border-radius: 20px;
+    padding: 30px 20px;
+    width: min(50vw, 480px);
+}
+
+.card-title{
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form-group{
+    margin-bottom: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form-control{
+    background-color: #F2F2F2;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border: 2px solid #CDCDCD;
+    border-radius: 20px;
+    padding: 10px 12px;
+    color: black;
+}
+
+.form-control::placeholder{
+    color: #CDCDCD;
+}
+
+.button{
+    margin: auto;
+    background: #007bff;
+    padding: 10px 50px;
+    border: 0;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 1em;
+}
+
+p{
+    font-size: 0.8em;
+    text-align: center;
+}
+
+.alert{
+    background-color: #ff9ea8;
+    color: #eb394b;
+    padding: 5px 5px;
+    text-align: center;
+    border: #dc3545 solid 3px;
+    border-radius: 20px;
+    margin: 12px 0px;
+}
