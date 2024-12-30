@@ -290,6 +290,7 @@ p {
 
         .duration{
             padding: 5px 20px;
+            margin-left: 5px;
         }
 
         h1{
@@ -305,7 +306,7 @@ p {
         }
     
         p {
-            font-size: 0.85em;
+            font-size: 0.75em;
         }
     
         .row-spread{
@@ -342,5 +343,7 @@ p {
             height: 30px;
             align-items: center;
             gap: 5px;
+            margin-right: 5px;
+            margin-bottom: 10px;
         }
     }
