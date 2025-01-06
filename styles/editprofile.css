@@ -10,7 +10,7 @@ body {
 
 .container {
   width: 100%;
-  max-width: 750px;
+  max-width: 90vw;
   padding: 5px;
 }
 
@@ -19,7 +19,7 @@ body {
   background-color: #007bff;
   color: white;
   border: none;
-  padding: 10px 20px;
+  padding: 5px 5px;
   font-size: 0.9em;
   border-radius: 25px;
   cursor: pointer;
@@ -227,6 +227,7 @@ p {
   padding: 1px 10px;
   width: fit-content;
   margin-bottom: 10px;
+  text-decoration:none;
 }
 
 .pink-btn:hover {
