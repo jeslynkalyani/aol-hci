@@ -121,3 +121,23 @@ p{
     .nav-item i:hover {
     color: #0056b3; 
     }
+
+
+input[type=radio] {
+    position:fixed;
+    opacity:0;
+    left:-90000px;
+}
+
+input[type=radio]:focus + label {
+    outline: 2px dotted black;
+}
+
+input[type=radio]:checked ~ label {
+    fill: gold;
+}
+
+.star-wrap{
+    display: flex;
+    flex-direction: row-reverse;
+}
